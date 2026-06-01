@@ -44,7 +44,7 @@ This is the most important difference to understand. Everything else flows from 
 
 ### Both SSR - Different Defaults for Interactivity
 
-Let's be clear: both frameworks SSR by default, and both support static generation and React Server Components. The difference isn't capability - it's how you access those capabilities and how much control you have.
+Let's be clear: both frameworks support SSR by default, and both support static generation and React Server Components. The difference isn't capability - it's how you access those capabilities and how much control you have.
 
 **Next.js** defaults to Server Components. Every component is a Server Component unless you add `"use client"`. Server Components can't use state, effects, or event handlers - so the path to interactivity requires understanding the framework's implicit boundaries, caching layers, and serialization rules.
 
